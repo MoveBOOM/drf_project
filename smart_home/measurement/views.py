@@ -7,8 +7,8 @@ from rest_framework.generics import ListAPIView, ListCreateAPIView, CreateAPIVie
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from measurement.models import Sensor, Measurement
-from measurement.serializers import SensorSerializer, MeasurementSerializer, SensorDetailSerializer
+from .models import Sensor, Measurement
+from .serializers import SensorSerializer, MeasurementSerializer, SensorDetailSerializer
 
 
 # @api_view(['GET'])
